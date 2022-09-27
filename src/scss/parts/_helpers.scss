@@ -1,0 +1,124 @@
+body{
+
+	background-color: $paper;
+	color: $text;
+	line-height: 1.7em;
+
+	& a{
+
+		color: $primary;
+
+		&.bttn{
+
+			border-radius: 1.3em;
+			border-top-left-radius: 0;
+			display: inline-block;
+			padding: 0 16px;
+			line-height: 2.6em;
+			background: $primary;
+			color: #fff;
+			transition: box-shadow .2s;
+
+			&.outline{
+
+				background: transparent;
+				color: $text;
+				border: 1px solid;
+			}
+
+			&:hover{
+				box-shadow: 0 0 0 4px $paper, 0 0 0 5px $text;
+			}
+		}
+	}
+
+	& .lazy{
+
+		background-size: cover;
+
+		&.h{
+			padding-bottom: 65%;
+		}
+
+		&.v{
+			padding-bottom: 120%;
+		}
+
+		&.q{
+			padding-bottom: 100%;
+		}
+	}
+
+	& .my-input-field{
+
+		position: relative;
+		padding-top: 20px;
+
+		& label{
+			position: absolute;
+			z-index: 1;
+			pointer-events: none;
+			left: 3px;
+			top: 24px;
+			transition: font-size .2s, top .2s;
+			font-size: calc(16px + .05vw);
+		}
+
+		& input{
+			line-height: 2em;
+			font-family: 'Playfair Display';
+			width: 100%;
+			border: 0;
+			background: transparent;
+			font-size: calc(18px + .05vw) !important;
+
+			&:focus{
+				outline: none;
+			}
+
+			&::placeholder{
+				color: transparent;
+			}
+
+			&:focus ~ label, &:not(:placeholder-shown) ~ label{
+				font-size: 10px;
+				top: 0;
+				line-height: 2em;
+			}
+		}
+	}
+
+	& .datepicker-controls{
+
+		& .select-month{
+
+			& input{
+				width: 100px;
+			}
+		}
+	}
+
+	& section#contacts{
+
+		padding: 6vw 0 !important;
+
+		& #address, & #form{
+
+			border-right: 1px solid $text;
+		}
+
+		@media(max-width: $large){
+
+			& #form{
+				border: 0;
+			}
+		}
+
+		@media(max-width: $medium){
+
+			& #address{
+				border: 0;
+			}
+		}
+	}
+}

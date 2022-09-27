@@ -1,0 +1,22 @@
+{
+  "name": "gevorgov-rest.local",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.27.10",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-buffer": "^0.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.3",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

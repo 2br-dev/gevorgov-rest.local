@@ -1,0 +1,16 @@
+//= IMPORT FRAMEWORK
+@import './framework/materialize';
+@import './framework/materialdesignicons';
+
+//= IMPORT PARTS
+@import './parts/vars';
+@import './parts/media';
+@import './parts/custom_grid';
+@import './parts/helpers';
+@import './parts/typography';
+@import './parts/header';
+@import './parts/footer';
+
+//= IMPORT PAGES
+@import './pages/main';
+@import './pages/menu';

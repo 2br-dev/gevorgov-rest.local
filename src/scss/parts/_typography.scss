@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: 'Burt';
+    src: local('Burt Fat Wide'), local('Burt-Fat-Wide'),
+        url('/fonts/Burt-FatWide.woff2') format('woff2'),
+        url('/fonts/Burt-FatWide.woff') format('woff'),
+        url('/fonts/Burt-FatWide.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body{
+
+	font-family: 'Playfair Display';
+
+	& .times{
+		font-family: 'Times New Roman', serif;
+	}
+
+	& .noto{
+		font-family: 'Noto Serif Georgian', serif;
+	}
+
+	& .burt{
+		font-family: 'Burt', serif;
+	}
+
+	font-size: calc(18px + .2vw);
+
+	& h4{
+		font-size: 1.5rem;
+	}
+
+	& h3{
+		font-size: 2rem;
+	}
+
+	& h2{
+		font-size: 3rem;
+	}
+
+	& h1, & h2, & h3, & h4{
+		line-height: 1.1em;
+	}
+}

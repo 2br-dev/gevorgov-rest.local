@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@@include('./parts/head.html', {title: 'Меню'})
+</head>
+<body>
+	@@include('./parts/header.html')
+	<main id="menu">
+		<section id="hero">
+			<div class="hero lazy" data-src="/img/menu_hero.jpg">
+				<div class="lazy logo" data-src="/img/logo_hero.svg"></div>
+			</div>
+		</section>
+		<section id="menu" class="menu">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<h2>Меню</h2>
+						<div class="menu">
+							@@loop('./parts/menu_section.html', './data/menu.json')
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="drinks" class="menu">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<h2>Без&shy;ал&shy;ко&shy;голь&shy;ные напитки</h2>
+						<div class="menu">
+							@@loop('./parts/menu_section.html', './data/drinks.json')
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="drinks" class="menu">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<h2>Барная карта</h2>
+						<div class="menu">
+							@@loop('./parts/menu_section.html', './data/bar_card.json')
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		@@include('./parts/contacts_block.html', {menu_link: '/menu.pdf', target: '_blank'})
+	</main>
+	@@include('./parts/footer.html')
+	@@include('./parts/scripts.html')
+</body>
+</html>

@@ -1,0 +1,20 @@
+<div class="menu-section">
+	<div class="title">
+		<h3>@@menu_title</h3>
+	</div>
+	@@if(context.subheader){
+		<div class="subheader">
+			<div class="subheader-name"></div>
+			@@for(z = 0;z < subheader.length; z++){
+				<div class="subheader-price">` + subheader[z] + `</div>
+			}
+		</div>
+	}
+	@@for(i = 0; i < menu_content.length; i++){
+		<div class="menu-entry `+(menu_content[i]['section_class'] === undefined?'':'section')+`">
+			<div class="name">`+ menu_content[i]['name'] +`</div>
+			<div class="price">` + menu_content[i]['price'] + `</div>
+			`+(menu_content[i]['price2'] === undefined?'':'<div class="price">'+menu_content[i]['price2']+"</div>")+`
+		</div>
+	}
+</div>

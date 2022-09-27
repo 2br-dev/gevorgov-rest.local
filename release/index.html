@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Геворговъ Rest</title>
+<link rel="stylesheet" href="/css/master.css">
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css">
+</head>
+<body>
+	<header>
+	<div class="container">
+		<div class="header-wrapper">
+			<div class="logo-wrapper">
+				<a href="/" class="logo lazy" data-src="/img/logo-header.svg"></a>
+			</div>
+			<div class="contacts-wrapper">
+				<a href="tel://+79883881288"><span class="times">+7 (988) 388-12-88</span> <i class="mdi mdi-flip-h mdi-phone"></i></a>
+				<a href="https://wa.me/+79883881288" target="_blank" rel="nofollow"><i class="mdi mdi-whatsapp"></i></a>
+			</div>
+		</div>
+	</div>
+</header>
+	<main id="main">
+		<section id="hero">
+			<video src="/video/hero.mp4" muted autoplay loop playsinline></video>
+		</section>
+		<section id="appeal">
+			<div class="container">
+				<div class="row flex vcenter">
+					<div class="col l3 m4 s6 xs8 offset-l1 offset-m4 offset-s3 offset-xs2 t12">
+						<div class="lazy q" data-src="/img/barhudar.jpg" id="barhudar"></div>
+					</div>
+					<div class="col l8">
+						<div class="appeal-text">
+							<div class="appeal-sign hide-m-down">“</div>
+							<div class="appeal-text-content">
+								<h2 class="quote"><span class="sign hide-m-up">“</span>Дорогие друзья!</h2>
+								<p>
+									<strong>Рады сообщить, что ресторан грузинской кухни «Геворговъ Rest» готов встречать гостей!</strong><br>
+									«Геворговъ Rest» это настоящая атмосфера старого Тбилиси, это место в котором своими руками мы воссоздали неповторимый Грузинский колорит, вместе с самой необыкновенной кухней в мире. Само собой теперь нам хочется поделиться плодами своих трудов с Вами!
+								</p>
+								<p>
+									<i>Поэтому приглашаем Вас на грузинское застолье (с груз. <span class="noto">სუფრა</span> cупра)! Мы рады видеть вас каждый день, приходите сами, зовите друзей и родителей, пусть вам у нас будет хорошо!</i>
+								</p>
+								<p>
+									<i>Бархудар Есоян, ресторатор</i>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="call-to-action">
+			<div class="row no-margin">
+				<div class="col m6 s12 no-padding">
+					<div class="lazy menu-wrapper" data-src="/img/menu.jpg">
+						<a href="/menu.html" class="bttn">Смотреть меню</a>
+					</div>
+				</div>
+				<div class="col m6 s12 no-padding">
+					<div class="lazy table-wrapper" data-src="/img/table.jpg">
+						<a href="" class="bttn">Забронировать столик</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="map"></section>
+		<div class="divider"></div>
+<section id="contacts">
+	<div class="container">
+		<div class="row">
+			<div class="col s12 center-align">
+				<h2>Контакты</h2>
+			</div>
+			<div class="col l3 m4 s12" id="address">
+				<h3>Адрес</h3>
+				<p><span class="times">352630</span>, Краснодарский край, г. Белореченск, ул. Первомайская, д. <span class="times">41</span></p>
+				<p>Бронь столиков: <a href="" class="times">+7 (988) 388-12-88</a></p>
+			</div>
+			<div class="col l5 m8 s12" id="form">
+				<h3>Обратная связь</h3>
+				<form action="" id="reserve">
+					<div class="row">
+						<div class="col xl6 l12">
+							<div class="my-input-field"><input name="name" type="text" placeholder="Имя, Фамилия"><label for="">Имя, Фамилия<sup>*</sup></label></div>
+						</div>
+						<div class="col xl6 l12">
+							<div class="my-input-field"><input name="phone" type="text" placeholder="Телефон*"><label for="">Телефон<sup>*</sup></label></div>
+						</div>
+						<div class="col xl6 l12">
+							<div class="my-input-field"><input name="date" type="text" class="datepicker" placeholder="Дата брони"><label for="">Дата брони<sup>*</sup></label></div>
+						</div>
+						<div class="col xl6 l12">
+							<div class="my-input-field"><input name="count" type="number" placeholder="Количество персон"><label for="">Количество персон<sup>*</sup></label></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12"><a href="javascript:void();" class="bttn outline" id="reserve-bttn">Забронировать столик</a></div>
+					</div>
+				</form>
+			</div>
+			<div class="col l4 m12 s12" id="menu">
+				<h3>Наши блюда</h3>
+				<p>«Геворговъ Rest» это настоящая атмосфера старого Тбилиси, это место в котором своими руками по-кусочкам мы воссоздали неповторимый Грузинский колорит, вместе с самой необыкновенной кухней в мире.</p>
+				<p>
+					<a href="/menu.html" target="_self" class="bttn outline">Смотреть меню</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+	</main>
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12 align-left-m-up align-center-l-down">© <span class="times">2022</span>, Геворговъ Rest</div>
+			<div class="col l6 s12 align-right-m-up align-center-l-down">Дизайн, разработка – <a href="https://2br.agency" class="burt" rel="no-follow">2BR</a></div>
+		</div>
+	</div>
+</footer>
+	<script src="/js/jquery.min.js"></script>
+<script src="/js/materialize.js"></script>
+<script src="/js/jquery.lazy.min.js"></script>
+<script src="/js/master.js"></script>
+</body>
+</html>

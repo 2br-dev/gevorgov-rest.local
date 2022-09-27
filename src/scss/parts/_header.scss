@@ -1,0 +1,42 @@
+header{
+
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: rgba($paper, .7);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	z-index: 5;
+
+	& .container{
+
+		& .header-wrapper{
+
+			display: flex;
+			line-height: 54px;
+			padding: 10px 0;
+
+			& .logo-wrapper{
+
+
+				& .logo{
+					width: 120px;
+					height: 100%;
+					background-size: contain;
+					background-repeat: no-repeat;
+					display: block;
+				}
+			}
+
+			& .contacts-wrapper{
+
+				flex-grow: 1;
+				text-align: right;
+
+				& a{
+					padding: 0 6px;
+				}
+			}
+		}
+	}
+}
