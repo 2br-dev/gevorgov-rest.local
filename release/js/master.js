@@ -1,7 +1,7 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 "use strict";
 
-var picker;
+var picker, swiper;
 
 (function () {
   $('.lazy').lazy();
@@ -26,6 +26,30 @@ var picker;
   }
 
   $('body').on('click', '#reserve-bttn', reserveTable);
+  swiper = new Swiper(document.querySelector('#gallery'), {
+    spaceBetween: 0,
+    loop: true,
+    speed: 600,
+    breakpoints: {
+      800: {
+        slidesPerView: 2
+      },
+      480: {
+        slidesPerView: 1
+      }
+    },
+    autoplay: {
+      delay: 5000
+    },
+    pagination: {
+      type: 'bullets',
+      el: '.swiper-pagination',
+      clickable: true
+    }
+  });
+  swiper.on('slideChange', function () {
+    $('.lazy').lazy();
+  });
 })();
 
 function reserveTable(e) {
@@ -83,7 +107,7 @@ function initMap() {
       zoom: 16.25
     });
     var el = document.createElement('a');
-    el.href = "https://yandex.ru/maps/10988/belorechensk/?ll=39.878973%2C44.768392&mode=routes&rtext=~44.768420%2C39.878890&rtt=auto&ruri=~&z=17.62";
+    el.href = "https://yandex.ru/maps/10988/belorechensk/?ll=39.881244%2C44.768600&mode=routes&rtext=~44.768296%2C39.878650&rtt=auto&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoyMTUyMzY0MzE0EnLQoNC%2B0YHRgdC40Y8sINCa0YDQsNGB0L3QvtC00LDRgNGB0LrQuNC5INC60YDQsNC5LCDQkdC10LvQvtGA0LXRh9C10L3RgdC6LCDQn9C10YDQstC%2B0LzQsNC50YHQutCw0Y8g0YPQu9C40YbQsCwgNDEiCg28gx9CFb0SM0I%3D&z=14.76";
     el.target = "_blank";
     el.rel = "nofollow";
     el.className = 'marker';

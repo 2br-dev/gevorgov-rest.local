@@ -1,4 +1,4 @@
-let picker;
+let picker, swiper;
 
 (() => {
 	$('.lazy').lazy();
@@ -65,6 +65,32 @@ let picker;
 	}
 
 	$('body').on('click', '#reserve-bttn', reserveTable);
+
+	swiper = new Swiper( document.querySelector('#gallery'), {
+		spaceBetween: 0,
+		loop: true,
+		speed: 600,
+		breakpoints: {
+			800: {
+				slidesPerView: 2
+			},
+			480: {
+				slidesPerView: 1
+			}
+		},
+		autoplay: {
+			delay: 5000
+		},
+		pagination: {
+			type: 'bullets',
+			el: '.swiper-pagination',
+			clickable: true
+		}
+	} )
+
+	swiper.on('slideChange', () => {
+		$('.lazy').lazy();
+	})
 	
 })();
 

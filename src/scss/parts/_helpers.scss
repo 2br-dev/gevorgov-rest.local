@@ -26,6 +26,12 @@ body{
 				border: 1px solid;
 			}
 
+			&.large{
+				font-size: calc(18px + .5vw);
+				padding: 0 30px;
+
+			}
+
 			&:hover{
 				box-shadow: 0 0 0 4px $paper, 0 0 0 5px $text;
 			}
