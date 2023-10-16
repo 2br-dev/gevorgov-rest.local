@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2020-11-22T14:37:38+03:00">
+	<shop>
+		<name>Геворгов Rest</name>
+		<company>Геворгов Rest</company>
+		<url>http://http://gevorgov.rest</url>
+		<currencies>
+			<currency id="RUR" rate="1" />
+		</currencies>
+		<categories>
+			<category id="1">Горячие блюда</category>
+			<category id="2">Хачапури</category>
+			<category id="3">Блюда на мангале</category>
+			<category id="4">Горячие закуски</category>
+			<category id="5">Блюда из печи</category>
+			<category id="6">Хинкали</category>
+			<category id="7">Чебуреки</category>
+			<category id="8">Супы</category>
+			<category id="9">Для детей</category>
+			<category id="10">Холодные закуски</category>
+			<category id="11">Салаты</category>
+		</categories>
+		<delivery-options />
+		<offers>
+			<offer id="1">
+				<name>Острый, 350 гр (говядина в томатном соусе)</name>
+				<price>480</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="2">
+				<name>Оджахури, 350 гр (жаркое с картошкой и свининой)</name>
+				<price>330</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="3">
+				<name>Чашушули, 350 гр (говядина с овощами в винном соусе)</name>
+				<price>480</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="4">
+				<name>Шкмерули, 350 гр (цыплёнок в сливочном соусе)</name>
+				<price>450</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="5">
+				<name>Цыплёнок табака, 1 шт.</name>
+				<price>400</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="6">
+				<name>Долма, 250/50 гр.</name>
+				<price>330</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="7">
+				<name>Форель, 1 шт. (запечённая в печи)</name>
+				<price>700</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="8">
+				<name>Дорадо, 1 шт. (запечённая в печи)</name>
+				<price>700</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="9">
+				<name>Чанахи с говядиной, 700 гр. (банкетное)</name>
+				<price>960</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="10">
+				<name>Хангал, 350 гр.</name>
+				<price>300</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="11">
+				<name>Пирог с мясом, 700 гр. (Кубдари - свинина)</name>
+				<price>450</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="12">
+				<name>Пирог, 700 гр. (картошка с сыром)</name>
+				<price>500</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="13">
+				<name>Ламаджо, 150гр. (свино-говяжий фарш, запечённый в печи)</name>
+				<price>150</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="14">
+				<name>Ачма. 100 гр. (банкетное блюдо)</name>
+				<price>100</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="15">
+				<name>Кебабули с сыром запечённые в печи, 350 гр.</name>
+				<price>500</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>1</categoryId>
+			</offer>
+			<offer id="16">
+				<name>Хачапури по-аджарски (готовится в виде лодочки из теста с растопленным сыром сулугуни с финальным добавлением яичного желтка)</name>
+				<price>370</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>2</categoryId>
+			</offer>
+			<offer id="17">
+				<name>Хачапури по-мегрельски (это закрытый пирог, который делают в форме лепёшки с расплавленным сыром  из очень воздушного теста)</name>
+				<price>650</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>2</categoryId>
+			</offer>
+			<offer id="18">
+				<name>Шашлык из свиной шеи с овощами, соусом и зеленью 250/100/100 гр</name>
+				<price>450</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="19">
+				<name>Баранина каре, 100 гр.</name>
+				<price>600</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="20">
+				<name>Куриная грудка, 200/100/100 гр.</name>
+				<price>380</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="21">
+				<name>Люля кебаб (говядина) 200/100/100 гр.</name>
+				<price>400</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="22">
+				<name>Люля кебаб (баранина), 200/100/100 гр.</name>
+				<price>450</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="23">
+				<name>Картофель на мангале, 200 гр.</name>
+				<price>200</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="24">
+				<name>Овощи на мангале, 100 гр.</name>
+				<price>1500</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="25">
+				<name>Свиные рёбра, 250/100/100 гр.</name>
+				<price>450</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="26">
+				<name>Большой люля кебаб на компанию</name>
+				<price>2000</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="27">
+				<name>Шашлык для дружной компании, 1400/300/200 гр. (Люля кебаб говядина, картофель с салом, шашлык из шеи, шашлык из курицы, рёбра свиные, запечёные овощи, помидоры, огурцы, соус)</name>
+				<price>3300</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>3</categoryId>
+			</offer>
+			<offer id="28">
+				<name>Шампиньоны (с сулугуни на кеции), 250 гр</name>
+				<price>300</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>4</categoryId>
+			</offer>
+			<offer id="29">
+				<name>Томаты (с сулугуни на кеции), 250 гр</name>
+				<price>290</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>4</categoryId>
+			</offer>
+			<offer id="30">
+				<name>Кучмачи (куриные желудки, сердечки), 350 гр</name>
+				<price>350</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>4</categoryId>
+			</offer>
+			<offer id="31">
+				<name>Свинина, 1350 гр (запечённая с овощами)</name>
+				<price>2000</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>5</categoryId>
+			</offer>
+			<offer id="32">
+				<name>Баранина, 1300 (с овощами, запечённая в печи)</name>
+				<price>3500</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>5</categoryId>
+			</offer>
+			<offer id="33">
+				<name>Свиные рёбра, 1500 гр (в долгом маринаде, запечённые с картофелем и овощами)</name>
+				<price>2000</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>5</categoryId>
+			</offer>
+			<offer id="34">
+				<name>Свино-говяжьи, 1 шт.</name>
+				<price>70</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>6</categoryId>
+			</offer>
+			<offer id="35">
+				<name>Говяжьи, 1 шт.</name>
+				<price>85</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>6</categoryId>
+			</offer>
+			<offer id="36">
+				<name>Шоколадные с вишней, 3 шт.</name>
+				<price>350</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>6</categoryId>
+			</offer>
+			<offer id="37">
+				<name>Большой грузинский чебурек (свино-говяжий, 300 гр.), 1 шт.</name>
+				<price>600</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>7</categoryId>
+			</offer>
+			<offer id="38">
+				<name>Хашлама с говядиной, 400 гр</name>
+				<price>350</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>8</categoryId>
+			</offer>
+			<offer id="39">
+				<name>Харчо с говядиной, 350 гр</name>
+				<price>330</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>8</categoryId>
+			</offer>
+			<offer id="40">
+				<name>Чихиртма, 350 гр (куриный суп с яйцом)</name>
+				<price>330</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>8</categoryId>
+			</offer>
+			<offer id="41">
+				<name>Мини-люля кебаб и пюрешка, 100/100 гр.</name>
+				<price>200</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>9</categoryId>
+			</offer>
+			<offer id="42">
+				<name>Картошечка фри, 100/50 гр.</name>
+				<price>150</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>9</categoryId>
+			</offer>
+			<offer id="43">
+				<name>Пицца салями, 600 гр.</name>
+				<price>600</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>9</categoryId>
+			</offer>
+			<offer id="44">
+				<name>Наггетсы куриные 150/50 гр.</name>
+				<price>150</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>9</categoryId>
+			</offer>
+			<offer id="45">
+				<name>Сырные шарики, 150 гр.</name>
+				<price>250</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>9</categoryId>
+			</offer>
+			<offer id="46">
+				<name>Брынза домашняя, 200 гр.</name>
+				<price>250</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="47">
+				<name>Мясное ассорти (бастурма, суджуг, свинина копчёная, говядина копчёная), 280 гр.</name>
+				<price>680</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="48">
+				<name>Сёмга (с/с собственного засола), 100/50/30 гр.</name>
+				<price>700</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="49">
+				<name>Пхали (свекла, шпинат, фасоль), 150 гр.</name>
+				<price>250</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="50">
+				<name>Соленья, 300 гр.</name>
+				<price>360</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="51">
+				<name>Овощное ассорти (помидор, огурец, перец болгарский), 430 гр.</name>
+				<price>380</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="52">
+				<name>Зелень по сезону, 130 гр.</name>
+				<price>150</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="53">
+				<name>Сало собственного засола, 200/50 гр.</name>
+				<price>280</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="54">
+				<name>Рулетики из баклажан с сыром,150/15 гр.</name>
+				<price>350</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="55">
+				<name>Рулетики из баклажан с орехом, 150/15 гр.</name>
+				<price>300</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="56">
+				<name>Лобио по-грузински, 220 гр.</name>
+				<price>250</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="57">
+				<name>Грузинские закуски на компанию (рулетики из баклажан 2 вида, пхали 3 вида), 450/15 гр.</name>
+				<price>780</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="58">
+				<name>Сациви (банкетная позиция), 1150 гр.</name>
+				<price>1500</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>10</categoryId>
+			</offer>
+			<offer id="59">
+				<name>Овощной салат (заправка: сметана, масло), 200 гр.</name>
+				<price>300</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>11</categoryId>
+			</offer>
+			<offer id="60">
+				<name>Салат по-грузински (овощной с орехом)</name>
+				<price>300</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>11</categoryId>
+			</offer>
+			<offer id="61">
+				<name>Цезаряшвили из курицы, 300 гр.</name>
+				<price>450</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>11</categoryId>
+			</offer>
+			<offer id="62">
+				<name>Цезаряшвили из сёмги, 300 гр.</name>
+				<price>550</price>
+				<currencyId>RUR</currencyId>
+				<categoryId>11</categoryId>
+			</offer>
+		</offers>
+	</shop>
+</yml_catalog>

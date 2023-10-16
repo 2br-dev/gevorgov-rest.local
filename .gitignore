@@ -1,3 +1,5 @@
 node_modules
 .vscode
 design
+release/parser.php
+src/html/data/entire.json
